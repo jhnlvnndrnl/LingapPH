@@ -1,0 +1,276 @@
+:root {
+    --navy: #112f43;
+    --blue: #245b7d;
+    --white: #ffffff;
+    --light: #f0f3f5;
+    --border: #d9e1e6;
+    --text: #27323c;
+    --muted: #71808e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background-color: var(--white);
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 66px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--border);
+}
+
+.logo h2 {
+    font-size: 20px;
+    color: var(--navy);
+}
+
+.logo p {
+    font-size: 8px;
+    margin-top: 3px;
+    color: var(--muted);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 11px;
+}
+
+nav a.active {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.language {
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-color: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 58px 20px 55px;
+}
+
+.hero .subtitle {
+    font-size: 9px;
+    margin-bottom: 17px;
+    color: #d1dce4;
+}
+
+.hero h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.hero .description {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.search-box {
+    max-width: 505px;
+    height: 43px;
+    margin: 0 auto 15px;
+    padding: 5px;
+    display: flex;
+    background-color: var(--white);
+    border-radius: 7px;
+}
+
+.search-box input {
+    flex: 1;
+    min-width: 0;
+    padding: 0 9px;
+    border: none;
+    outline: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+}
+
+.search-box button {
+    padding: 0 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.browse {
+    font-size: 10px;
+    color: #e0e7ec;
+}
+
+/* ASSISTANCE SECTION */
+
+.assistance {
+    padding: 48px 8%;
+}
+
+.section-heading {
+    font-size: 23px;
+    margin-bottom: 6px;
+}
+
+.section-description {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 18px;
+}
+
+.assistance-cards {
+    display: flex;
+    gap: 15px;
+}
+
+.assistance-card {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.card-icon {
+    width: 33px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: var(--light);
+    color: var(--blue);
+}
+
+.card-icon svg {
+    width: 19px;
+    height: 19px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.assistance-card h3 {
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.assistance-card p {
+    font-size: 10px;
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+
+.assistance-card a {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* HOW IT WORKS */
+
+.how-it-works {
+    background-color: var(--light);
+    padding: 42px 8px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.how-it-works h2 {
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+
+.steps {
+    display: flex;
+    gap: 18px;
+}
+
+.step {
+    flex: 1;
+    padding: 15px;
+    background-color: var(--white);
+    border-radius: 7px;
+}
+
+.step-number {
+    color: var(--blue);
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.step h3 {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.step p {
+    font-size: 10px;
+    color: var(--muted);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--navy);
+    color: var(--white);
+    padding: 27px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-brand h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer-brand p,
+.footer-note {
+    font-size: 9px;
+    color: #d1dce4;
+}
+
+.footer-links {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 9px;
+}
