@@ -397,3 +397,116 @@ footer {
     color: var(--muted);
     font-size: 12px;
 }
+
+/* ==============================ABOUT PAGE============================== */
+
+.about-page {
+    padding: 64px 8% 71px;
+}
+
+.about-intro h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.about-intro > p,
+.purpose-intro,
+.about-feature p,
+.purpose-card p,
+.about-note p {
+    color: var(--muted);
+    font-size: 15px;
+}
+
+.about-feature {
+    min-height: 287px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin-top: 28px;
+    padding: 28px;
+    background-color: var(--light);
+    border-radius: 11px;
+}
+
+.about-feature > div:first-child {
+    flex: 1;
+}
+
+.about-feature h2 {
+    max-width: 660px;
+    font-size: 27px;
+    margin-bottom: 14px;
+}
+
+.about-feature p {
+    max-width: 670px;
+    line-height: 1.25;
+}
+
+.about-placeholder {
+    width: 420px;
+    flex: 0 0 420px;
+    background-color: #dce6eb;
+    border-radius: 8px;
+}
+
+.purpose {
+    margin-top: 28px;
+}
+
+.purpose h2 {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.purpose-intro {
+    margin-bottom: 27px;
+}
+
+.purpose-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+}
+
+.purpose-card {
+    min-height: 133px;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.purpose-card h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.purpose-card p {
+    min-height: 35px;
+    line-height: 1.25;
+    margin-bottom: 9px;
+}
+
+.purpose-card a {
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about-note {
+    margin-top: 28px;
+    padding: 24px 22px;
+    background-color: var(--light);
+    border-radius: 8px;
+}
+
+.about-note h3 {
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+
+.about-note p {
+    font-size: 14px;
+}
