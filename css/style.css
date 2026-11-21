@@ -422,33 +422,107 @@ footer {
     min-height: 287px;
     display: flex;
     justify-content: space-between;
-    gap: 35px;
+    align-items: stretch;
+    gap: 55px;
     margin-top: 28px;
-    padding: 28px;
-    background-color: var(--light);
+    padding: 34px 36px;
+    background-color: var(--navy);
+    color: var(--white);
     border-radius: 11px;
 }
 
-.about-feature > div:first-child {
+.about-feature-copy {
     flex: 1;
+    padding: 3px 0;
+}
+
+.feature-label {
+    color: #b9d2df;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 19px;
 }
 
 .about-feature h2 {
     max-width: 660px;
-    font-size: 27px;
+    font-size: 29px;
     margin-bottom: 14px;
 }
 
 .about-feature p {
     max-width: 670px;
-    line-height: 1.25;
+    line-height: 1.35;
 }
 
-.about-placeholder {
-    width: 420px;
-    flex: 0 0 420px;
-    background-color: #dce6eb;
+.about-feature-copy > p:not(.feature-label) {
+    color: #d1dce4;
+    margin-bottom: 23px;
+}
+
+.about-feature-copy a {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about-feature-panel {
+    width: 390px;
+    flex: 0 0 390px;
+    align-self: center;
+    padding: 22px;
+    background-color: #1e4b65;
     border-radius: 8px;
+}
+
+.feature-panel-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature-panel-icon {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: var(--white);
+    color: var(--blue);
+    font-size: 22px;
+    line-height: 1;
+}
+
+.feature-panel-heading p {
+    color: #b9d2df;
+    font-size: 9px;
+    letter-spacing: .8px;
+    margin-bottom: 3px;
+}
+
+.feature-panel-heading strong {
+    font-size: 15px;
+}
+
+.feature-panel-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-top: 15px;
+}
+
+.feature-panel-row span {
+    color: #b9d2df;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.feature-panel-row p {
+    color: var(--white);
+    font-size: 13px;
 }
 
 .purpose {
