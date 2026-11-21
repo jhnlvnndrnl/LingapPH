@@ -18,19 +18,24 @@
         </div>
 
         <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="/pages/about.html">About</a>
-            <a href="/pages/services.html">Services</a>
-            <a href="/pages/government.html">Government</a>
-            <a href="/pages/tools.html">Tools</a>
-            <a href="/pages/contact.html">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <div class="nav-dropdown">
+                <a href="/pages/services.html" class="dropdown-toggle">Services <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></a>
+                <div class="dropdown-menu">
+                    <a href="/pages/services.html">Services</a>
+                    <a href="/pages/government.html">Government</a>
+                    <a href="/pages/tools.html">Tools</a>
+                </div>
+            </div>
+            <a href="#contact">Contact</a>
         </nav>
 
         <div class="language">EN</div>
     </header>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero" id="home">
         <p class="subtitle">PUBLIC ASSISTANCE, MADE EASIER</p>
 
         <h1>Find the support you need.</h1>
@@ -129,6 +134,102 @@
         </div>
     </section>
 
+    <!-- ABOUT -->
+    <main class="about-page" id="about">
+        <section class="about-intro">
+            <h1>About LingapPH</h1>
+            <p>A public assistance information portal designed to make government support easier to understand and navigate.</p>
+        </section>
+
+        <section class="about-feature">
+            <div class="about-feature-copy">
+                <p class="feature-label">ABOUT LINGAPPH</p>
+                <h2>Making public assistance easier to find and understand</h2>
+                <p>LingapPH brings program information, eligibility guidance, requirements, and official agency channels into one accessible place.</p>
+                <a href="/pages/services.html">Explore assistance programs <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="about-feature-panel" aria-label="LingapPH assistance overview">
+                <div class="feature-panel-heading">
+                    <span class="feature-panel-icon"><i class="fa-solid fa-hand-holding-heart"></i></span>
+                    <div>
+                        <p>PUBLIC ASSISTANCE</p>
+                        <strong>Find the right support</strong>
+                    </div>
+                </div>
+
+                <div class="feature-panel-row">
+                    <span>01</span>
+                    <p>Browse programs by need</p>
+                </div>
+                <div class="feature-panel-row">
+                    <span>02</span>
+                    <p>Understand what you need</p>
+                </div>
+                <div class="feature-panel-row">
+                    <span>03</span>
+                    <p>Connect with official agencies</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="purpose">
+            <h2>Our purpose</h2>
+            <p class="purpose-intro">Clear information helps people take the next step with confidence.</p>
+
+            <div class="purpose-cards">
+                <article class="purpose-card">
+                    <h3>Our mission</h3>
+                    <p>Organize public assistance information into clear, accessible guidance.</p>
+                    <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+                <article class="purpose-card">
+                    <h3>Our vision</h3>
+                    <p>A Philippines where people can more easily discover the support available to them.</p>
+                    <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+                <article class="purpose-card">
+                    <h3>Our approach</h3>
+                    <p>Present understandable information and connect users to official sources.</p>
+                    <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-note">
+            <h3>What LingapPH does</h3>
+            <p>LingapPH is an information portal. It does not process applications, determine eligibility, approve benefits, or distribute government assistance.</p>
+        </section>
+    </main>
+
+    <!-- CONTACT -->
+    <!-- <section class="contact-section" id="contact">
+        <div class="contact-copy">
+            <p class="feature-label">GET IN TOUCH</p>
+            <h2>Need help finding the right information?</h2>
+            <p>Reach out to the LingapPH team for questions about this information portal and its resources.</p>
+        </div>
+
+        <div class="contact-details">
+            <div class="contact-detail">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <div>
+                    <strong>Email</strong>
+                    <p>hello@lingapph.org</p>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <div>
+                    <strong>Office hours</strong>
+                    <p>Monday to Friday, 8:00 AM – 5:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
     <!-- FOOTER -->
     <footer>
 
@@ -138,10 +239,10 @@
         </div>
 
         <div class="footer-links">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Government Agencies</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="/pages/services.html">Services</a>
+            <a href="/pages/government.html">Government Agencies</a>
+            <a href="#contact">Contact</a>
         </div>
 
         <p class="footer-note">
