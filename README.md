@@ -122,8 +122,10 @@ Users should verify program information, eligibility requirements, and applicati
 
 ## Contributors
 
-Developed as part of the LingapPH project.
-
+- Dores Bunquin
+- John Elvin Endrenal
+- karl Mhigos lopez
+- Efrain Borbon
 ---
 
 *Making public assistance information easier to discover and understand.*
