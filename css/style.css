@@ -217,6 +217,10 @@ footer {
     stroke-linejoin: round;
 }
 
+.card-icon i {
+    font-size: 17px;
+}
+
 .assistance-card h3 {
     font-size: 17px;
     margin-bottom: 9px;
@@ -233,6 +237,13 @@ footer {
     color: var(--blue);
     font-size: 13px;
     font-weight: bold;
+}
+
+.assistance-card a i,
+.purpose-card a i,
+.service-card a i {
+    margin-left: 4px;
+    font-size: 11px;
 }
 
 /* HOW IT WORKS */
@@ -492,8 +503,11 @@ footer {
     border-radius: 50%;
     background-color: var(--white);
     color: var(--blue);
-    font-size: 22px;
     line-height: 1;
+}
+
+.feature-panel-icon i {
+    font-size: 14px;
 }
 
 .feature-panel-heading p {
