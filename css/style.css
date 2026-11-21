@@ -622,79 +622,76 @@ footer {
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
+    font-size: 9px;
 }
 
-.about-note {
-    margin-top: 28px;
-    padding: 24px 22px;
-    background-color: var(--light);
-    border-radius: 8px;
+/* CONTACTS SECTION */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 8%;
 }
 
-.about-note h3 {
-    font-size: 17px;
-    margin-bottom: 9px;
+.contactsB {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
-.about-note p {
-    font-size: 14px;
+.contact-card {
+  flex: 1;
+  width: 500px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
 }
 
-/* ==============================CONTACT============================== */
-
-.contact-section {
-    margin: 0 8% 71px;
-    padding: 31px 36px;
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    background-color: var(--light);
-    border-radius: 10px;
+.contact {
+  display: flex;
+  gap: 20px;
 }
 
-.contact-copy {
-    max-width: 620px;
+.getTouch {
+  background-color: var(--light);
+  height: 100%;
+  width: 450px;
+  border-radius: 7px;
+  padding: 16px 8px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.contact-copy h2 {
-    font-size: 26px;
-    margin: 6px 0 10px;
+.getTouch h3 {
+  font-size: 13px;
+  margin-top: 16px;
+  margin-bottom: 7px;
 }
 
-.contact-copy > p:last-child {
-    color: var(--muted);
-    font-size: 14px;
-    line-height: 1.35;
+.cForm {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 16px;
+  font-family: Helvetica;
 }
 
-.contact-details {
-    min-width: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 18px;
+.contact-card input[type=text], textarea {
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
-.contact-detail {
-    display: flex;
-    align-items: center;
-    gap: 13px;
-}
-
-.contact-detail > i {
-    width: 30px;
-    color: var(--blue);
-    font-size: 17px;
-    text-align: center;
-}
-
-.contact-detail strong {
-    display: block;
-    font-size: 13px;
-    margin-bottom: 3px;
-}
-
-.contact-detail p {
-    color: var(--muted);
-    font-size: 12px;
+.contact-card input[type=SendMessagebtn] {
+  width: 110px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--light);
+  color: var(--blue);
+  padding: 7px;
+  border: none;
+  border-radius: 20px;
 }
