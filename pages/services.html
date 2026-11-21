@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LingapPH | Services</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header>
@@ -14,15 +15,101 @@
         </div>
 
         <nav>
-            <a href="../index.html">Home</a>
-            <a href="/pages/about.html">About</a>
-            <a href="/pages/services.html" class="active">Services</a>
-            <a href="/pages/government.html">Government</a>
-            <a href="/pages/tools.html">Tools</a>
-            <a href="/pages/contact.html">Contact</a>
+            <a href="../index.html#home">Home</a>
+            <a href="../index.html#about">About</a>
+            <div class="nav-dropdown">
+                <a href="/pages/services.html" class="dropdown-toggle active">Services <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></a>
+                <div class="dropdown-menu">
+                    <a href="/pages/services.html">Services</a>
+                    <a href="/pages/government.html">Government</a>
+                    <a href="/pages/tools.html">Tools</a>
+                </div>
+            </div>
+            <a href="../index.html#contact">Contact</a>
         </nav>
 
         <div class="language">EN</div>
     </header>
+
+    <!-- SERVICES -->
+    <main class="services-page">
+        <section class="services-intro">
+            <h1>Explore assistance programs</h1>
+            <p>Browse support by need, then review program details and official application channels.</p>
+        </section>
+
+        <div class="services-search">
+            <input type="text" placeholder="Search programs or assistance...">
+            <button>Search</button>
+        </div>
+
+        <div class="service-filters">
+            <button class="filter active">All categories</button>
+            <button class="filter">Financial</button>
+            <button class="filter">Medical</button>
+            <button class="filter">Education</button>
+            <button class="filter">Senior citizens</button>
+            <button class="filter">PWD</button>
+            <button class="filter">Family support</button>
+        </div>
+
+        <section class="service-grid">
+            <article class="service-card">
+                <h2>Financial Assistance</h2>
+                <p>Cash aid, emergency assistance, livelihood support, and social welfare programs.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </article>
+
+            <article class="service-card">
+                <h2>Medical Assistance</h2>
+                <p>Medical bills, medicines, treatment support, and healthcare benefits.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </article>
+
+            <article class="service-card">
+                <h2>Educational Assistance</h2>
+                <p>Scholarships, tuition support, school supplies, and student aid.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </article>
+
+            <article class="service-card">
+                <h2>Senior Citizen Benefits</h2>
+                <p>Benefits, social pension information, and available services.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </article>
+
+            <article class="service-card">
+                <h2>PWD Benefits</h2>
+                <p>Disability-related benefits, discounts, and support services.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </article>
+
+            <article class="service-card">
+                <h2>Family &amp; Child Support</h2>
+                <p>Family assistance, child welfare, and conditional support programs.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </article>
+        </section>
+
+        <p class="services-note">Program information should be checked with the responsible government agency.</p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-brand">
+            <h3>LingapPH</h3>
+            <p>Helping Filipinos navigate public assistance.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Agencies</a>
+            <a href="#">Tools</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <p class="footer-note">Verify program details with the official agency.</p>
+    </footer>
 </body>
 </html>
