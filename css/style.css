@@ -636,6 +636,7 @@ footer {
 .contactsB {
   display: flex;
   flex-direction: row;
+  margin-top: 14px;
   gap: 15px;
 }
 
