@@ -22,6 +22,13 @@ body {
     background-color: var(--white);
 }
 
+h1,
+h2,
+h3,
+.logo h2 {
+    font-family: "Urbanist", Helvetica, Arial, sans-serif;
+}
+
 /* HEADER */
 
 header {
@@ -618,6 +625,14 @@ footer {
 }
 
 .purpose-card a {
+    font-size: 14px;
+}
+
+.purpose-card a i {
+    font-size: 14px;
+}
+
+.purpose-card a {
     color: var(--blue);
     font-size: 13px;
     font-weight: bold;
@@ -694,4 +709,384 @@ footer {
   padding: 7px;
   border: none;
   border-radius: 20px;
+}
+
+/* LISTING PAGES */
+.listing-page {
+    margin: 0 8%;
+    padding: 64px 0;
+}
+
+.listing-intro h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.listing-intro p {
+    color: var(--muted);
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 20px;
+}
+
+.listing-card,
+.agency-card {
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.listing-card {
+    min-height: 133px;
+}
+
+.listing-card h2,
+.agency-card h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.listing-card p,
+.agency-card p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 9px;
+}
+
+.listing-card a,
+.agency-card a {
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.listing-card a i,
+.agency-card a i {
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.listing-note {
+    margin-top: 24px;
+    padding: 20px;
+    background: var(--light);
+    border-radius: 8px;
+}
+
+.listing-note h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.listing-note p {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.agency-search {
+    height: 61px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.agency-search input {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+.agency-search button,
+.agency-filters button {
+    border: 0;
+    border-radius: 20px;
+    background: var(--light);
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.agency-filters {
+    display: flex;
+    gap: 10px;
+    margin: 24px 0;
+}
+
+.agency-filters button {
+    padding: 9px 14px;
+}
+
+.agency-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.agency-card {
+    min-height: 150px;
+}
+
+/* CONTACT PAGE */
+.contacts {
+    margin: 0 8%;
+    padding: 64px 0;
+}
+
+.contactsB {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+.contact {
+    display: block;
+}
+
+.contact-card {
+    width: auto;
+    padding: 24px;
+}
+
+.contact-card h3 {
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.cForm {
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.contact-card input[type=text],
+.contact-card textarea {
+    display: block;
+    width: 100%;
+    padding: 0 12px;
+    margin: 8px 0 13px;
+    font: 14px Helvetica, Arial, sans-serif;
+    color: var(--text);
+}
+
+.contact-card input[type=text] {
+    height: 41px;
+}
+
+.contact-card textarea {
+    height: 128px;
+    padding-top: 10px;
+    resize: vertical;
+}
+
+.contact-card input[type=SendMessagebtn] {
+    margin-top: -1px;
+}
+
+.getTouch {
+    width: auto;
+    min-height: 307px;
+    padding: 22px 24px;
+    border-radius: 9px;
+}
+
+/* Shared detail links */
+.service-card a,
+.listing-card a,
+.agency-card a,
+.purpose-card a {
+    font-size: 13px;
+    line-height: 1.35;
+}
+
+.service-card a i,
+.listing-card a i,
+.agency-card a i,
+.purpose-card a i {
+    margin-left: 4px;
+    font-size: 11px;
+}
+
+.getTouch .section-heading {
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+
+.getTouch h3 {
+    font-size: 14px;
+    margin: 0 0 14px;
+}
+
+.getTouch .section-description {
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+/* ==============================FAQ PAGE============================== */
+
+.faq-page {
+    margin: 0 8%;
+    padding: 64px 0 72px;
+}
+
+.faq-list {
+    display: grid;
+    gap: 12px;
+}
+
+.faq-card {
+    min-height: 116px;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.faq-card h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.faq-card p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 9px;
+}
+
+.faq-card a {
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.faq-card a i {
+    margin-left: 4px;
+    font-size: 11px;
+}
+
+/* Purpose section */
+.purpose {
+    margin-top: 44px;
+}
+
+.purpose-intro {
+    margin-bottom: 32px;
+}
+
+.purpose-cards {
+    gap: 22px;
+}
+
+.purpose-card {
+    min-height: 151px;
+    padding: 24px;
+}
+
+.purpose-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.purpose-card p {
+    min-height: 40px;
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 11px;
+}
+
+.about-note {
+    margin-top: 32px;
+    padding: 26px 24px;
+    background: var(--light);
+    border-radius: 8px;
+}
+
+.about-note h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.about-note p {
+    font-size: 13px;
+}
+
+/* Home page typography */
+.logo h2 {
+    font-size: 20px;
+}
+
+.logo p {
+    font-size: 10px;
+}
+
+nav a {
+    font-size: 14px;
+}
+
+.language {
+    font-size: 12px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero .description {
+    font-size: 16px;
+}
+
+.browse {
+    font-size: 12px;
+}
+
+.section-heading {
+    font-size: 30px;
+}
+
+.section-description {
+    font-size: 15px;
+}
+
+.assistance-card {
+    padding: 16px;
+}
+
+.assistance-card h3 {
+    font-size: 17px;
+}
+
+.assistance-card p {
+    font-size: 14px;
+}
+
+.assistance-card a {
+    font-size: 13px;
+}
+
+.how-it-works h2 {
+    font-size: 27px;
+}
+
+.step h3 {
+    font-size: 17px;
+}
+
+.step p {
+    font-size: 14px;
+}
+
+.about-intro h1 {
+    font-size: 30px;
 }

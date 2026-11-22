@@ -1,47 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LingapPH | Tools</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-            <header>
+    <header>
         <div class="logo">
             <h2>LingapPH</h2>
             <p>PUBLIC ASSISTANCE PORTAL</p>
         </div>
 
         <nav>
-            <a href="../index.html#home">Home</a>
-            <a href="../index.html#about">About</a>
+            <a href="../index.html">About</a>
             <div class="nav-dropdown">
-                <a href="/pages/services.html" class="dropdown-toggle active">Services <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></a>
+                <a href="/pages/services.html" class="dropdown-toggle active">
+                    Services <i class="fa-solid fa-chevron-down"></i>
+                </a>
                 <div class="dropdown-menu">
                     <a href="/pages/services.html">Services</a>
                     <a href="/pages/government.html">Government</a>
                     <a href="/pages/tools.html">Tools</a>
                 </div>
             </div>
-            <a href="../index.html#contact">Contact</a>
+            <a href="/pages/contact.html">FAQ</a>
         </nav>
 
-        <div class="language">EN</div>
+        <div class="language">EN⌄</div>
     </header>
-   <main class="tools">
-        <section class="tools-intro">
-            <h1>Helpful Tools</h1>
+
+    <main class="listing-page tools-page">
+        <section class="listing-intro">
+            <h1>Helpful tools</h1>
             <p>Use these guides to prepare before contacting an agency or applying for assistance.</p>
         </section>
 
-         <section class="tools-grid">
-            <article class="tools-card">
-                <h2>Eligible Guide</h2>
+        <div class="agency-search">
+            <input type="search" placeholder="Search tools or guides...">
+            <button>Search</button>
+        </div>
+
+        <div class="agency-filters">
+            <button>All tools</button>
+            <button>Planning</button>
+            <button>Applications</button>
+            <button>Documents</button>
+            <button>Agencies</button>
+            <button>Safety</button>
+        </div>
+
+        <section class="tools-grid">
+            <article class="listing-card">
+                <h2>Eligibility Guide</h2>
                 <p>Understand common eligibility terms and what to check in an official program description.</p>
-                <a href="#">View details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
             </article>
-          </section>
+
+            <article class="listing-card">
+                <h2>Requirements Checklist</h2>
+                <p>Prepare a list of documents commonly requested by assistance programs.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Application Guide</h2>
+                <p>Learn how to follow official application steps and where to ask questions.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Assistance Finder</h2>
+                <p>Narrow down program categories based on the kind of support you are looking for.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Agency Directory</h2>
+                <p>Find the agency responsible for a program and its official contact channels.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers about using LingapPH and verifying program information.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Document Organizer</h2>
+                <p>Keep track of identification cards, certificates, and other documents needed for applications.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Application Status Guide</h2>
+                <p>Learn what common application updates mean and where to follow up with an agency.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Benefits Comparison</h2>
+                <p>Compare assistance categories to help identify which programs may fit your needs.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Assistance Budget Planner</h2>
+                <p>List expected costs and prepare questions before requesting financial or medical support.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Agency Contact Checklist</h2>
+                <p>Prepare the details and questions to have ready when contacting an official agency.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+
+            <article class="listing-card">
+                <h2>Scam Safety Guide</h2>
+                <p>Identify warning signs and verify that assistance information comes from an official source.</p>
+                <a href="#">View details <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+        </section>
+
+        <aside class="listing-note">
+            <h3>Please note</h3>
+            <p>Tools provide general information only. Requirements and decisions are determined by the responsible agency.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-brand">
+            <h3>LingapPH</h3>
+            <p>Helping Filipinos navigate public assistance.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="../index.html#about">About</a>
+            <a href="/pages/services.html">Services</a>
+            <a href="/pages/government.html">Agencies</a>
+            <a href="/pages/tools.html">Tools</a>
+            <a href="/pages/contact.html">FAQ</a>
+        </div>
+
+        <p class="footer-note">Verify program details with the official agency.</p>
+    </footer>
 </body>
+
 </html>
