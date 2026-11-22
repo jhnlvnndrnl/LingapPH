@@ -31,6 +31,7 @@ Government assistance information is often scattered across different agencies a
 |---|---|
 | HTML5 | Website structure and content |
 | CSS3 | Styling and page layouts |
+| Font Awesome | Interface icons and visual indicators |
 
 ## Project Structure
 
@@ -105,7 +106,8 @@ LingapPH follows a minimal and clean visual direction, prioritizing readability,
 
 ### Typography
 
-- Primary Font: Helvetica
+- Heading Font: Urbanist
+- Body Font: Helvetica
 - Fallback Fonts: Arial, sans-serif
 
 ## Project Status
@@ -123,9 +125,9 @@ Users should verify program information, eligibility requirements, and applicati
 ## Contributors
 
 - Dores Bunquin
-- John Elvin Endrenal
-- karl Mhigos lopez
 - Efrain Borbon
+- John Elvin Endrenal
+- Karl Mhigos Lopez
 
 ---
 
