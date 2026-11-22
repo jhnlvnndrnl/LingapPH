@@ -158,6 +158,12 @@ footer {
 
 .hero {
     background-color: var(--navy);
+    background-image: linear-gradient(
+        rgba(17, 47, 67, 0.88),
+        rgba(17, 47, 67, 0.88)
+    ), url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
     color: var(--white);
     text-align: center;
     padding: 58px 20px 55px;
@@ -486,6 +492,12 @@ footer {
     margin-top: 28px;
     padding: 34px 36px;
     background-color: var(--navy);
+    background-image: linear-gradient(
+        rgba(17, 47, 67, 0.86),
+        rgba(17, 47, 67, 0.86)
+    ), url("../img/bg-about.jpg");
+    background-position: center;
+    background-size: cover;
     color: var(--white);
     border-radius: 11px;
 }
