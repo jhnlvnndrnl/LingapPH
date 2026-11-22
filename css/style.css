@@ -294,8 +294,7 @@ footer {
 }
 
 .assistance-card a i,
-.purpose-card a i,
-.service-card a i {
+.purpose-card a i {
     margin-left: 4px;
     font-size: 11px;
 }
@@ -422,39 +421,6 @@ footer {
 
 .filter {
     padding: 9px 14px;
-}
-
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px 18px;
-}
-
-.service-card {
-    min-height: 133px;
-    padding: 20px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-}
-
-.service-card h2 {
-    font-size: 17px;
-    margin-bottom: 10px;
-}
-
-.service-card p {
-    min-height: 35px;
-    color: var(--muted);
-    font-size: 14px;
-    line-height: 1.25;
-    margin-bottom: 9px;
-}
-
-.service-card a {
-    color: var(--blue);
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 .services-note {
@@ -652,78 +618,6 @@ footer {
     font-size: 9px;
 }
 
-/* CONTACTS SECTION */
-
-.contacts {
-  display: flex;
-  flex-direction: column;
-  padding: 48px 8%;
-}
-
-.contactsB {
-  display: flex;
-  flex-direction: row;
-  margin-top: 14px;
-  gap: 15px;
-}
-
-.contact-card {
-  flex: 1;
-  width: 500px;
-  padding: 16px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-}
-
-.contact {
-  display: flex;
-  gap: 20px;
-}
-
-.getTouch {
-  background-color: var(--light);
-  height: 100%;
-  width: 450px;
-  border-radius: 7px;
-  padding: 16px 8px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.getTouch h3 {
-  font-size: 13px;
-  margin-top: 16px;
-  margin-bottom: 7px;
-}
-
-.cForm {
-  font-weight: bold;
-  font-size: 13px;
-  margin-top: 16px;
-  font-family: Helvetica;
-}
-
-.contact-card input[type=text], textarea {
-  border: 1px solid var(--border);
-  border-radius: 5px;
-  width: 100%;
-  padding: 5px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-}
-
-.contact-card input[type=SendMessagebtn] {
-  width: 110px;
-  font-size: 13px;
-  font-weight: bold;
-  text-align: center;
-  background-color: var(--light);
-  color: var(--blue);
-  padding: 7px;
-  border: none;
-  border-radius: 20px;
-}
-
 /* LISTING PAGES */
 .listing-page {
     margin: 0 8%;
@@ -741,31 +635,34 @@ footer {
     margin-bottom: 24px;
 }
 
-.tools-grid {
+.tools-grid,
+.service-grid,
+.agency-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px 20px;
 }
 
 .listing-card,
-.agency-card {
+.agency-card,
+.service-card {
+    min-height: 133px;
     padding: 20px;
     border: 1px solid var(--border);
     border-radius: 8px;
 }
 
-.listing-card {
-    min-height: 133px;
-}
-
 .listing-card h2,
-.agency-card h2 {
+.agency-card h2,
+.service-card h2 {
     font-size: 17px;
     margin-bottom: 10px;
 }
 
 .listing-card p,
-.agency-card p {
+.agency-card p,
+.service-card p {
+    min-height: 35px;
     color: var(--muted);
     font-size: 14px;
     line-height: 1.25;
@@ -773,7 +670,8 @@ footer {
 }
 
 .listing-card a,
-.agency-card a {
+.agency-card a,
+.service-card a {
     color: var(--blue);
     font-size: 13px;
     font-weight: bold;
@@ -781,7 +679,8 @@ footer {
 }
 
 .listing-card a i,
-.agency-card a i {
+.agency-card a i,
+.service-card a i {
     margin-left: 5px;
     font-size: 11px;
 }
@@ -841,18 +740,10 @@ footer {
     padding: 9px 14px;
 }
 
-.agency-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
-}
-
-.agency-card {
-    min-height: 150px;
-}
-
 /* CONTACT PAGE */
 .contacts {
+    display: flex;
+    flex-direction: column;
     margin: 0 8%;
     padding: 64px 0;
 }
@@ -868,6 +759,8 @@ footer {
 }
 
 .contact-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
     width: auto;
     padding: 24px;
 }
@@ -878,6 +771,8 @@ footer {
 }
 
 .cForm {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
     margin-top: 0;
     font-size: 13px;
 }
@@ -894,19 +789,33 @@ footer {
 
 .contact-card input[type=text] {
     height: 41px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
 }
 
 .contact-card textarea {
+    border: 1px solid var(--border);
+    border-radius: 5px;
     height: 128px;
     padding-top: 10px;
     resize: vertical;
 }
 
 .contact-card input[type=SendMessagebtn] {
+    width: 110px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--light);
+    color: var(--blue);
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
     margin-top: -1px;
 }
 
 .getTouch {
+    background-color: var(--light);
     width: auto;
     min-height: 307px;
     padding: 22px 24px;
