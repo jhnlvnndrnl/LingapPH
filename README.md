@@ -6,9 +6,26 @@ LingapPH is a web-based information portal designed to help Filipinos discover g
 
 The platform aims to make public assistance information easier to access through a simple, organized, and user-friendly interface.
 
-## Overview
+## Context Overview
 
-Government assistance information is often scattered across different agencies and online platforms. LingapPH aims to provide a centralized starting point where users can explore assistance categories and access relevant program information.
+| Item | Description |
+|---|---|
+| **Category** | Government and Public Services |
+| **Subcategory** | Public Assistance Services |
+| **Website Title** | LingapPH — Public Assistance Information Portal for Filipinos |
+| **Purpose** | Government and official assistance websites can be difficult to find, especially when information is spread across different agencies and platforms. LingapPH gathers legitimate sources and organizes them into a simple starting point where Filipinos can discover assistance programs, understand available services, and find the appropriate government agency to contact. |
+
+The name **LingapPH** combines *lingap*, meaning care or assistance, with **PH**, representing the Philippines. The project focuses on Philippine government services and public assistance information.
+
+## References and Problem Basis
+
+The problem addressed by LingapPH is supported by the continued need to make Philippine government information easier to discover, understand, and access. Government services and assistance details are distributed across different agencies, websites, and service categories, which can make it difficult for citizens to identify the correct source.
+
+LingapPH uses [BetterGovPH](https://bettergov.ph/) as its primary web reference and inspiration. BetterGovPH organizes Philippine government services, guides, hotlines, and agency information in one searchable portal. Its mission to make government data more accessible, understandable, and actionable aligns with LingapPH's goal of gathering legitimate public assistance sources in one clear starting point.
+
+The [Philippine National Government Portal](https://ngp.e.gov.ph/) also describes itself as a single window for government content and online services, reinforcing the importance of centralized and organized access to official information.
+
+The links above are reference portals. LingapPH does not replace official government agencies; users should always verify program details, requirements, and application procedures through the responsible agency's official website.
 
 ## Features
 
