@@ -361,22 +361,23 @@ footer {
 
 /* ==============================SERVICES============================== */
 
-.services-page {
-    padding: 64px 8% 70px;
+.listing-page {
+    margin: 0 8%;
+    padding: 64px 0 70px;
 }
 
-.services-intro h1 {
+.listing-intro h1 {
     font-size: 30px;
     margin-bottom: 8px;
 }
 
-.services-intro p {
+.listing-intro p {
     color: var(--muted);
     font-size: 15px;
     margin-bottom: 24px;
 }
 
-.services-search {
+.listing-search {
     height: 61px;
     display: flex;
     align-items: center;
@@ -385,7 +386,7 @@ footer {
     border-radius: 8px;
 }
 
-.services-search input {
+.listing-search input {
     flex: 1;
     height: 100%;
     border: none;
@@ -395,12 +396,13 @@ footer {
     font-size: 14px;
 }
 
-.services-search input::placeholder {
+.listing-search input::placeholder {
     color: var(--muted);
 }
 
-.services-search button,
-.filter {
+.listing-search button,
+.filter,
+.listing-filters button {
     border: none;
     border-radius: 20px;
     background-color: var(--light);
@@ -409,16 +411,17 @@ footer {
     font-size: 12px;
 }
 
-.services-search button {
+.listing-search button {
     padding: 10px 15px;
 }
 
-.service-filters {
+.listing-filters {
     display: flex;
     gap: 10px;
     margin: 24px 0;
 }
 
+.listing-filters button,
 .filter {
     padding: 9px 14px;
 }
@@ -619,49 +622,25 @@ footer {
 }
 
 /* LISTING PAGES */
-.listing-page {
-    margin: 0 8%;
-    padding: 64px 0;
-}
-
-.listing-intro h1 {
-    font-size: 30px;
-    margin-bottom: 8px;
-}
-
-.listing-intro p {
-    color: var(--muted);
-    font-size: 15px;
-    margin-bottom: 24px;
-}
-
-.tools-grid,
-.service-grid,
-.agency-grid {
+.listing-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px 20px;
 }
 
-.listing-card,
-.agency-card,
-.service-card {
+.listing-card {
     min-height: 133px;
     padding: 20px;
     border: 1px solid var(--border);
     border-radius: 8px;
 }
 
-.listing-card h2,
-.agency-card h2,
-.service-card h2 {
+.listing-card h2 {
     font-size: 17px;
     margin-bottom: 10px;
 }
 
-.listing-card p,
-.agency-card p,
-.service-card p {
+.listing-card p {
     min-height: 35px;
     color: var(--muted);
     font-size: 14px;
@@ -669,18 +648,14 @@ footer {
     margin-bottom: 9px;
 }
 
-.listing-card a,
-.agency-card a,
-.service-card a {
+.listing-card a {
     color: var(--blue);
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.listing-card a i,
-.agency-card a i,
-.service-card a i {
+.listing-card a i {
     margin-left: 5px;
     font-size: 11px;
 }
@@ -700,44 +675,6 @@ footer {
 .listing-note p {
     color: var(--muted);
     font-size: 13px;
-}
-
-.agency-search {
-    height: 61px;
-    display: flex;
-    align-items: center;
-    padding: 5px 10px 5px 14px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-}
-
-.agency-search input {
-    flex: 1;
-    height: 100%;
-    border: 0;
-    outline: 0;
-    font: 14px Helvetica, Arial, sans-serif;
-}
-
-.agency-search button,
-.agency-filters button {
-    border: 0;
-    border-radius: 20px;
-    background: var(--light);
-    color: var(--blue);
-    font-size: 12px;
-    font-weight: bold;
-    padding: 10px 15px;
-}
-
-.agency-filters {
-    display: flex;
-    gap: 10px;
-    margin: 24px 0;
-}
-
-.agency-filters button {
-    padding: 9px 14px;
 }
 
 /* CONTACT PAGE */
@@ -823,17 +760,13 @@ footer {
 }
 
 /* Shared detail links */
-.service-card a,
 .listing-card a,
-.agency-card a,
 .purpose-card a {
     font-size: 13px;
     line-height: 1.35;
 }
 
-.service-card a i,
 .listing-card a i,
-.agency-card a i,
 .purpose-card a i {
     margin-left: 4px;
     font-size: 11px;
