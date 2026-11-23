@@ -804,9 +804,15 @@ footer {
 .getTouch {
     background-color: var(--light);
     width: auto;
+    height: fit-content;
     min-height: 307px;
     padding: 22px 24px;
     border-radius: 9px;
+}
+
+.getTouch h2 {
+    font-size: 21px;
+    margin-bottom: 16px;
 }
 
 /* Shared detail links */
