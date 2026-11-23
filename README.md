@@ -36,7 +36,7 @@ The links above are reference portals. LingapPH does not replace official govern
 - Services page
 - Government agencies page
 - Tools page
-- Contact page
+- FAQ page
 - Financial, medical, and educational assistance categories
 - Search interface design
 - Navigation menu
@@ -60,7 +60,7 @@ LingapPH/
 │
 ├── pages/
 │   ├── about.html
-│   ├── contact.html
+│   ├── faq.html
 │   ├── government.html
 │   ├── services.html
 │   └── tools.html
@@ -78,7 +78,7 @@ LingapPH/
 | `css/style.css` | Shared stylesheet for website styling and layout. |
 | `pages/` | Contains the individual website pages. |
 | `pages/about.html` | About page introducing LingapPH. |
-| `pages/contact.html` | Contact page. |
+| `pages/faq.html` | FAQ page. |
 | `pages/government.html` | Government agencies page. |
 | `pages/services.html` | Services and assistance categories page. |
 | `pages/tools.html` | Tools page. |
