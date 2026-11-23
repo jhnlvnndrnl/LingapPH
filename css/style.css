@@ -104,7 +104,6 @@ nav a.active {
 
 .dropdown-menu {
     position: absolute;
-    /* Keep the menu attached to the trigger so hover does not break. */
     top: 100%;
     left: 0;
     z-index: 10;
@@ -123,7 +122,6 @@ nav a.active {
 
 .dropdown-menu a {
     padding: 9px 11px;
-    white-space: nowrap;
 }
 
 .dropdown-menu a:hover {
