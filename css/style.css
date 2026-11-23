@@ -56,13 +56,36 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 20px;
+}
+
+.nav-list,
+.dropdown-menu,
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 nav a {
+    display: block;
     text-decoration: none;
     color: var(--text);
     font-size: 11px;
+    padding: 9px 13px;
+    border-radius: 7px;
+    transition: background-color .2s ease, color .2s ease;
+}
+
+.nav-list > li > a:hover,
+.dropdown-toggle:hover {
+    background-color: var(--light);
+    color: var(--blue);
 }
 
 nav a.active {
@@ -72,9 +95,6 @@ nav a.active {
 
 .nav-dropdown {
     position: relative;
-    height: 66px;
-    display: flex;
-    align-items: center;
 }
 
 .dropdown-toggle i {
@@ -84,11 +104,11 @@ nav a.active {
 
 .dropdown-menu {
     position: absolute;
-    top: 58px;
-    left: -12px;
+    top: calc(100% + 8px);
+    left: 0;
     z-index: 10;
     min-width: 140px;
-    padding: 8px 0;
+    padding: 7px;
     display: none;
     background-color: var(--white);
     border: 1px solid var(--border);
@@ -101,8 +121,7 @@ nav a.active {
 }
 
 .dropdown-menu a {
-    display: block;
-    padding: 9px 14px;
+    padding: 9px 11px;
     white-space: nowrap;
 }
 
@@ -142,8 +161,12 @@ footer {
 }
 
 .footer-links {
+    display: block;
+}
+
+.footer-links ul {
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .footer-links a {
@@ -450,6 +473,19 @@ footer {
 .about-note p {
     color: var(--muted);
     font-size: 15px;
+}
+
+.about-note-list {
+    max-width: 680px;
+    margin: 12px 0 0;
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.about-note-list li::marker {
+    color: var(--blue);
 }
 
 .about-feature {
