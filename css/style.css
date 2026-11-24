@@ -480,11 +480,12 @@ footer {
 
 .about-note-list {
     max-width: 680px;
-    margin: 12px 0 0;
+    margin: 12px 0;
     padding-left: 20px;
     color: var(--muted);
     font-size: 15px;
     line-height: 1.7;
+
 }
 
 .about-note-list li::marker {
@@ -501,8 +502,7 @@ footer {
     padding: 34px 36px;
     background-color: var(--navy);
     background-image: linear-gradient(
-        rgba(17, 47, 67, 0.86),
-        rgba(17, 47, 67, 0.86)
+        rgba(17, 47, 67, 0.86)  
     ), url("../img/bg-about.jpg");
     background-position: center;
     background-size: cover;
